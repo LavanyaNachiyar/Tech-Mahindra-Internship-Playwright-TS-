@@ -2,7 +2,7 @@
 
 A comprehensive end-to-end testing suite for OrangeHRM using Playwright, covering all major modules and functionalities of the HR management system.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project provides automated testing for the OrangeHRM demo application, covering:
 - User authentication and dashboard navigation
@@ -17,7 +17,7 @@ This project provides automated testing for the OrangeHRM demo application, cove
 - System maintenance
 - Social features (Buzz)
 
-## 🚀 Features
+##  Features
 
 - **Comprehensive Coverage**: Tests all major OrangeHRM modules
 - **Cross-browser Testing**: Configured for Microsoft Edge
@@ -26,13 +26,13 @@ This project provides automated testing for the OrangeHRM demo application, cove
 - **Robust Test Helpers**: Reusable functions for common operations
 - **Error Handling**: Fallback mechanisms for flaky UI elements
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js (LTS version)
 - npm or yarn package manager
 - Microsoft Edge browser
 
-## 🛠️ Installation
+##  Installation
 
 1. Clone the repository:
 ```bash
@@ -50,7 +50,7 @@ npm install
 npx playwright install
 ```
 
-## 🏃‍♂️ Running Tests
+##  Running Tests
 
 ### Run all tests:
 ```bash
@@ -72,7 +72,7 @@ npx playwright test tests/Login.test.ts
 npx playwright test --ui
 ```
 
-## 📊 Test Reports
+##  Test Reports
 
 After running tests, view the HTML report:
 ```bash
@@ -81,7 +81,7 @@ npx playwright show-report
 
 Reports are automatically generated in the `playwright-report/` directory.
 
-## 🧪 Test Structure
+##  Test Structure
 
 ### Main Test Suite (`Login.test.ts`)
 Comprehensive end-to-end test covering:
@@ -115,7 +115,7 @@ Comprehensive end-to-end test covering:
 ### Example Tests (`example.spec.ts`)
 Basic Playwright examples for reference.
 
-## 🔧 Configuration
+##  Configuration
 
 ### Playwright Configuration (`playwright.config.ts`)
 - **Test Directory**: `./tests`
@@ -131,7 +131,7 @@ Basic Playwright examples for reference.
 - Comprehensive error handling
 - Fallback URL navigation for flaky elements
 
-## 🤖 CI/CD Pipeline
+##  CI/CD Pipeline
 
 GitHub Actions workflow (`.github/workflows/playwright.yml`):
 - Triggers on push/PR to main/master branches
@@ -141,7 +141,7 @@ GitHub Actions workflow (`.github/workflows/playwright.yml`):
 - Uploads test reports as artifacts
 - 60-minute timeout for comprehensive testing
 
-## 🛡️ Test Reliability Features
+##  Test Reliability Features
 
 ### Robust Element Selection
 - Multiple selector strategies (role, text, xpath)
@@ -159,7 +159,7 @@ GitHub Actions workflow (`.github/workflows/playwright.yml`):
 - `openTopbar()`: Reliable dropdown navigation
 - `fillAutocompleteAndSelectFirst()`: Autocomplete handling
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Playwright/
@@ -177,23 +177,23 @@ Playwright/
 └── README.MD                      # This file
 ```
 
-## 🎯 Test Coverage
+##  Test Coverage
 
 The test suite covers:
-- ✅ User authentication
-- ✅ Dashboard navigation
-- ✅ Employee information management
-- ✅ Time and attendance tracking
-- ✅ Leave management workflows
-- ✅ Performance evaluation system
-- ✅ Recruitment processes
-- ✅ Directory and search functionality
-- ✅ Administrative configurations
-- ✅ Claims processing
-- ✅ System maintenance operations
-- ✅ Social platform features
+-  User authentication
+-  Dashboard navigation
+-  Employee information management
+-  Time and attendance tracking
+-  Leave management workflows
+-  Performance evaluation system
+-  Recruitment processes
+-  Directory and search functionality
+-  Administrative configurations
+-  Claims processing
+-  System maintenance operations
+-  Social platform features
 
-## 🔍 Debugging
+##  Debugging
 
 ### Debug Mode
 ```bash
@@ -208,7 +208,7 @@ npx playwright show-trace test-results/[test-name]/trace.zip
 ### Screenshots and Videos
 Automatically captured on test failures in the `test-results/` directory.
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -216,7 +216,7 @@ Automatically captured on test failures in the `test-results/` directory.
 4. Ensure all tests pass
 5. Submit a pull request
 
-## 📝 Notes
+##  Notes
 
 - Tests are designed for the OrangeHRM demo environment
 - Default credentials: Username: `Admin`, Password: `admin123`
@@ -224,7 +224,7 @@ Automatically captured on test failures in the `test-results/` directory.
 - Network idle waiting ensures page stability
 - Fallback mechanisms handle UI inconsistencies
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 1. **Browser not found**: Run `npx playwright install`
@@ -237,6 +237,6 @@ Automatically captured on test failures in the `test-results/` directory.
 - Enable `--headed` mode to see browser interactions
 - Use `--trace=on` for detailed execution traces
 
-## 📄 License
+##  License
 
 ISC License - See package.json for details.
